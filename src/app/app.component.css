@@ -1,0 +1,53 @@
+h1, p{
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+button{
+    margin-top: 10px;
+    border: none;
+    background-color: #6EACDA;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all, 0.3s;
+}
+button:hover{
+    text-decoration: underline;
+}
+
+input{
+    padding: 15px;
+}
+
+.results p{
+    font-size: 20px;
+}
+.results{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
